@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1920px;height: auto;
+    max-width: 100%; max-height: auto;
+    background: aliceblue;
+}
+
+/* home style start  */
+
+.home
+{
+    width: 1920px;height: auto;
+    max-width:100%;max-height: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center; align-items: center;
+}
+
+.home .navMenu
+{
+  width: 700px; height: auto; max-width: 100%;
+}
+
+.home .navMenu ul 
+{
+    display: flex; justify-content: space-around;
+    margin: .5rem; align-items: center; justify-items: center;
+}
+
+.home .navMenu ul li
+{
+    list-style: none; 
+}
+
+.home .navMenu ul  li a
+{
+    text-decoration: none;color: black; text-transform: capitalize;
+    font-size: 1.7rem; margin: .2rem; padding: .2rem;
+}
+
+.home .navMenu ul  li a:hover
+{
+    color: cornflowerblue;
+    border-bottom: .5px solid cornflowerblue;
+}
+
+.home .login
+{
+    width: 200px; display: flex;margin: .2rem;
+    max-width: 100%; justify-content: space-around; align-items: center; justify-items: center;
+}
+
+.home .login p
+{
+    font-size: 1.2rem; text-transform: uppercase; 
+}
+
+.home .login p:hover
+{
+    color: #F8C471; cursor: pointer;
+}
+
+.home .login span
+{
+    width: 30px;
+    height: 35px;
+    background:cornflowerblue;
+    padding: .5rem;
+    border-radius: 50%;
+    border: none;
+}
+
+.home .login span i
+{
+    color: white;
+}
+
+/* home style end  */
+
+/* infoBox1 style start */
+.infoBox1
+{
+    width: 900px;
+    height: auto;
+    max-width: 100%;
+    padding: .8rem;
+    border-radius: 5px;
+    background: #F8C471;
+    justify-content: center;
+    position: relative;
+    left: 22%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.infoBox1 .bx1
+{
+    width: 250px; height: auto; max-width: 100%;
+    display: flex; flex-direction: column; justify-content: center;
+    justify-items: center; align-items: center; 
+}
+
+.infoBox1 .bx1 h2
+{
+    text-transform: uppercase;
+    letter-spacing: .1rem; margin-right: 1.3rem;
+}
+
+.infoBox1 .bx1 .bx1-v1
+{
+    display: flex;justify-content: space-evenly;
+    width: 200px; max-width: 100%; height: auto;
+}
+
+.infoBox1 .bx1 .bx1-v1 .bx1-info1
+{
+    display: flex;justify-content:center;justify-items: center; align-items: center;
+}
+
+.infoBox1 .bx1 .bx1-v1 .bx1-info1 p span
+{
+    color: cornflowerblue;
+    font-size:2rem; font-weight: 600;
+}
+
+.infoBox1 .bx1 .bx1-v1 .bx1-info1 .p1
+{
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    text-align: center;
+    margin-left: 1rem; margin-bottom:.5rem;
+}
+
+.infoBox1 .infoBtn
+{
+    width: 700px;height: auto;max-width: 100%;
+    padding: 1rem; display: flex; justify-content: space-around;justify-items: center;align-items: center;
+}
+
+.infoBox1 .infoBtn a 
+{
+    background: white;
+    width: 180px;
+    text-align: center;
+    max-width: 100%;
+    padding: .3rem 0;
+    border-radius:10px;
+    text-transform: capitalize;
+    text-decoration: none; color: black;
+}
+
+.infoBox1 .infoBtn .a1
+{
+    background: cornflowerblue;
+    color:white;
+}
+
+.infoBox1 .infoBtn a:hover
+{
+    background: cornflowerblue;
+    color: white;
+}
+
+.infoBox1 .infoBtn .a1:hover
+{
+    background: white;
+    color:black;
+}
+/* infoBox1 style end */
+
+/* infoBox2 style start */
+.infoBox2
+{
+    margin-top: 2rem; padding: 1rem 0;
+    width: 1920px; height: auto; max-width: 100%;
+    background:rgba(0, 0, 255, 0.726); display: flex;
+    justify-content: space-around; justify-items: center; 
+}
+
+.infoBox2 .bx2 
+{
+    width: 300px; max-width: 100%;
+}
+
+.infoBox2 .bx2 h2
+{
+    text-align: center;
+    text-transform: uppercase; 
+    color: white;
+}
+
+.infoBox2 .bx2 .star
+{
+    display: flex;
+    margin-top: .5rem; margin-bottom: 1rem;
+    margin-left: 10rem;
+}
+
+.infoBox2 .bx2 .star i
+{
+    color: #F8C471;
+    font-size: 1rem;
+}
+
+.infoBox2 .bx2 p
+{
+    color: white;
+    font-size: 1.1rem;
+    margin:1rem 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.infoBox2 .bx2 p span
+{
+    text-transform: none;
+}
+/* infoBox2 style end */
+
+/* rooms style start */
+.rooms
+{
+    position: relative; margin-left: 50px;
+    width: 1500px; max-width: 100%; height: auto; 
+    display: flex;justify-content: center;justify-items: center;
+    align-items: center; flex-direction: column; margin-top: 1rem;
+}
+
+.rooms .title
+{
+    width: 500px; max-width: 100%; height: auto; 
+    text-align: center; padding: .5rem;
+}
+
+.rooms .title h2
+{
+    text-transform: uppercase; font-size: 2.5rem;
+    letter-spacing: 1rem;
+}
+
+
+.rooms .option
+{
+    width: 1200px; max-width: 100%;
+    height: auto; padding: 1rem; display: flex; justify-content: space-around;
+    justify-items: center; align-items: center;
+}
+
+.rooms .option a
+{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    background: cornflowerblue;
+    border-radius: 8px;
+    padding: .3rem 2rem;
+}
+
+.rooms .option a:first-child
+{
+    color: cornflowerblue;background: white;
+}
+
+.rooms .option a:hover
+{
+    color: cornflowerblue;background: white;
+}
+
+.rooms .presRoom
+{
+    width: 1180px; height: auto; max-width: 100%; margin-top: .5rem;
+    display: flex; justify-content: space-around; flex-wrap: wrap;
+}
+
+.rooms .presRoom .roomBox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: .1rem solid black;
+    padding: .3rem;margin-top: 1rem;
+}
+
+.rooms .presRoom .roomBox h3
+{
+    margin:.5rem 0; font-size: 1.2rem; color: cornflowerblue;
+    text-transform: uppercase; font-weight: 900; letter-spacing: .1rem;
+}
+
+.rooms .presRoom .roomBox a
+{
+    background: #F8C471;
+    color: white;
+    padding: .2rem 2rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius:5px ;
+    font-size: 1rem;
+    margin: .3rem 0; border: none;
+}
+
+.rooms .presRoom .roomBox a:hover
+{
+    color: #F8C471;background: white;
+}
+/* infoBox1 style end */
+
+/* hotelinfo style start */
+.hotelinfo
+{
+    position: relative; margin-left: 50px; 
+    width: 1500px; max-width: 100%; height: auto; 
+    display: flex;justify-content: center;justify-items: center;
+    align-items: center; flex-direction: column; margin-top: 1rem;
+}
+
+.hotelinfo .title
+{
+    width: 500px; max-width: 100%; height: auto; 
+    text-align: center; padding: .5rem;
+}
+
+.hotelinfo .title h2
+{
+    text-transform: uppercase; font-size: 2.5rem;
+    letter-spacing: 1rem;
+}
+
+.hotelinfo .infoh
+{
+    width: 1200px; height: auto;max-width: 100%;
+    display: flex; justify-content: space-around; align-items: center;
+    padding: .5rem 0; margin-bottom: 1rem;
+}
+
+.hotelinfo .infoh p
+{
+    background: cornflowerblue;
+    color: white; cursor: pointer;
+    text-transform: capitalize;
+    border: .8rem solid gray;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.hotelinfo .infoh p:hover
+{
+    opacity: .8;
+}
+
+.hotelinfo .infoparamet 
+{
+    width: 1200px; height: auto;max-width: 100%;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: .3rem 0; margin-bottom: .5rem;border-bottom: .1rem solid black;
+}
+
+.hotelinfo .infoparamet p
+{
+    margin-left: 5rem; font-size: 1.2rem; letter-spacing: .1rem;
+    font-weight: 600;
+}
+
+.hotelinfo .infoparamet i
+{
+    font-size: 1.7rem; margin-right: 5rem;
+}
+/* hotelinfo style ends */
+
+/* specialoffers style start */
+.specialoffers
+{
+    position: relative; margin-left: 50px; 
+    width: 1500px; max-width: 100%; height: auto; 
+    display: flex;justify-content: center;justify-items: center;
+    align-items: center; flex-direction: column; margin-top: 1rem;
+}
+
+.specialoffers .title
+{
+    width: 600px; max-width: 100%; height: auto; 
+    text-align: center; padding: .5rem;
+}
+
+.specialoffers .title h2
+{
+    text-transform: uppercase; font-size: 2.5rem;
+    letter-spacing: 1rem;
+}
+
+.specialoffers .offeroption
+{
+    width: 1200px;height: auto;max-width: 100%;
+}
+
+.specialoffers .offeroption .offers
+{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.specialoffers .offeroption .offers .offerinfo
+{
+    margin-left: 1rem; 
+}
+
+.specialoffers .offeroption .offers .offerinfo h2
+{
+    margin:0rem 0; color: cornflowerblue;
+    text-transform: uppercase; font-weight: 900; letter-spacing: .1rem;
+}
+
+.specialoffers .offeroption .offers .offerinfo p
+{
+    margin: 1.1rem 0; max-width: 100%;
+    width: 500px; font-size: 1.2rem;text-align: justify;
+}
+
+.specialoffers .offeroption .offers .offerinfo .offbutton
+{
+    display: flex; padding: .5rem;
+    justify-content: space-around; width: 300px; padding-bottom: 2rem;
+}
+
+.specialoffers .offeroption .offers .offerinfo .offbutton a
+{
+    background: gray;
+    color: white;
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius:20px ;
+    margin: .3rem 0;
+    border: none;
+}
+
+.specialoffers .offeroption .offers .offerinfo a
+{
+
+    background: #F8C471;
+    color: white;
+    padding: .5rem 4rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius:5px ;
+    font-size: 1rem;
+    border: none; margin-top: 1rem;
+}
+
+.specialoffers .offeroption .offers .offerinfo a:hover
+{
+    color: #F8C471; background: white;
+}
+/* specialoffers style end */
+
+/* gallery style start */
+.gallery
+{
+    position: relative; margin-left: 50px; 
+    width: 1500px; max-width: 100%; height: auto; 
+    display: flex;justify-content: center;justify-items: center;
+    align-items: center; flex-direction: column; margin-top: 1rem;
+}
+
+.gallery .title
+{
+    width: 600px; max-width: 100%; height: auto; 
+    text-align: center; padding: .5rem;
+}
+
+.gallery .title h2
+{
+    text-transform: uppercase; font-size: 2.5rem;
+    letter-spacing: 1rem;
+}
+
+.gallery .gbox
+{
+    width: 1100px; height: auto;max-width: 100%;
+    display: flex; justify-content: space-around; align-items: center;
+    padding: .5rem 0; margin-bottom: 1rem; flex-wrap: wrap;
+}
+
+.gallery .gbox img
+{
+    margin: .5rem 0;
+}
+
+.gallery .gbox img:hover
+{
+    opacity: .8; cursor: pointer;
+}
+/* gallery style end */
+
+/* footer style start */
+.footer
+{
+    position: relative; margin-left: 50px;
+    width: 1500px; max-width: 100%; height: auto; 
+    display: flex;justify-content: center;justify-items: center;
+    align-items: center; flex-direction: column; margin-top: 1rem;
+}
+
+.footer .f-box1
+{
+    width: 1100px; height: auto;max-width: 100%; background: black;
+    display: flex; justify-content: space-between; align-items: center;
+    justify-items: center;
+    padding: .5rem 0; margin-bottom: 1rem; 
+}
+
+.footer .f-box1 .fboxinfo
+{
+    width: 300px; height: auto;
+    margin-left: 6rem; 
+}
+
+.footer .f-box1 .fboxinfo h2
+{
+    color: white; text-transform: uppercase;
+    text-align: center; margin-bottom: 1rem;
+}
+
+.footer .f-box1 .fboxinfo p
+{
+    color: white;text-transform: capitalize;
+    margin: .5rem .5rem; cursor: pointer;
+}
+.footer .f-box1 .fboxinfo p span
+{
+    text-transform: none;
+}
+
+.footer .f-box1 .fboxinfo ul 
+{
+    display: flex; justify-content: space-around; 
+    align-items: center; justify-items: center;
+    width: 150px; margin-left: 4.5rem;
+}
+
+.footer .f-box1 .fboxinfo ul li
+{
+    text-decoration: none;
+    list-style: none;font-size: 1.5rem;color: white;
+    margin: .5rem .5rem;
+}
+
+.footer .f-box1 .fboxinfo img
+{
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+.footer .f-box1 .fboxinfo a
+{
+    border: 2px solid white;
+    text-decoration: none; color: white;
+    text-transform: uppercase;font-size: 1.2rem;
+    padding: .1rem 2rem; margin: 0 4rem;
+}
+
+.footer .f-box1 .fboxinfo p:hover
+{
+    color: #F8C471;
+}
+
+.footer .f-box1 .fboxinfo ul li:hover
+{
+    color: #F8C471; cursor: pointer;
+}
+
+.footer .f-box1 .fboxinfo a:hover
+{
+    border-color: #F8C471; color: #F8C471;
+}
+/* specialoffers style end */
+
+.reset 
+{
+    position: fixed; right: 2%; top: 90%;
+    font-size: 1.8rem;
+    width: 1.5rem; height: 1.8rem;
+    background: cornflowerblue;
+    border-radius:4px; cursor: pointer;
+    visibility: hidden;
+}
+
+.reset i
+{
+    color: #F8C471;
+}
+
+.reset:hover
+{
+    background: #F8C471;
+}
+.reset:hover i
+{
+    color: cornflowerblue;
+}
